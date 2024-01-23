@@ -4,5 +4,4 @@ It's a Simle Responsive Web App to fetch data from an API, the page auto refresh
 -HTML, CSS and JavaScript
 
 # Project Links
--Live Demo :
--GitHup Repository :
+-Live Demo : https://hajar224.github.io/WeatherWebApp/
