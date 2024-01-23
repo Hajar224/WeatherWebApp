@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     submitBtn.addEventListener('click', function () {
         const apiKey = "0109db164114906ff5bbbd401bca8a3d";
         inputValue = inputValue.value;
-        fetch( `http://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${apiKey}`)
+        fetch( `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${apiKey}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
