@@ -19,7 +19,7 @@ body{
     color: #fff;
 } 
 .container{
-    background-image: url(./imgs/weather4.jpg) ;
+    background-image: url('./imgs/weather4.jpg') ;
     background-size: cover;
     background-position: center;
     position: relative;
