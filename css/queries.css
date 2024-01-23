@@ -1,0 +1,70 @@
+/*1rem = 1em = 16px */
+/*****************Below 1344px (Small Laptops)*************************
+@media (max-width: 84em){
+    
+}*/
+
+/*****************Below 1200px (Landscape Tablets)************************/
+@media (max-width: 75em){
+    /* 9/16 = 0.5625    9px = 56.25% */
+    html{
+        font-size: 56.25%;
+    }
+    /*.weather-info{
+        width: 25%;
+    } */
+}
+
+/*****************Below 944px  (Tablets)************************/
+@media (max-width: 59em){
+    /* 8 / 16 = 0.5    8px = 50% */
+    html{
+        font-size: 50%;
+    }
+    /*.weather-info{
+        width: 30%;
+    } */
+}
+
+/*****************Below 704px (Smaller Tablets) *************************/
+@media (max-width: 44em){
+    .weather-info{
+        width: 40%;
+    } 
+}
+
+/*****************Below 544px (Phones) *********************************/
+@media (max-width: 34em){
+    .cloud-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+    .heading-primary{
+        font-size: 3.2rem;
+    }
+    .text-area{
+       font-size: 1.8rem;
+       padding: 1rem 0.8rem;
+    }
+    .submit-btn{
+        font-size: 1.4rem;
+        padding: 1rem 0.8rem;
+    }
+    .weather-info{
+        width: 65%;
+    } 
+}
+
+/*****************Below 336px (Galaxy Fold) ************************/
+@media (max-width: 21em){
+    .cloud-icon{
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+    .heading-primary{
+        font-size: 2.8rem;
+    }
+    .weather-info{
+        width: 80%;
+    } 
+}
